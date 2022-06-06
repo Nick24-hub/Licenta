@@ -49,9 +49,6 @@ def grayscale_and_resize_images_digital():
             cv2.imwrite(destination_dir, resized_img)
 
 
-grayscale_and_resize_images_digital()
-
-
 def extract_img_array_normalize_writecsv():
     labels = ['Cover', 'JMiPOD', 'JUNIWARD', 'Test', 'UERD']
     data_dir = r'D:\Repo_Licenta\resized_grayscale_alaska2'
